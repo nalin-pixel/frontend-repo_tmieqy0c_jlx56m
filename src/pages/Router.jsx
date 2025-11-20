@@ -5,6 +5,7 @@ import CategoryPage from '../components/CategoryPage'
 import BikeDetails from '../components/BikeDetails'
 import ReviewsPage from './ReviewsPage'
 import ContactPage from './ContactPage'
+import SikshaHome from './SikshaHome'
 
 export default function Router() {
   return (
@@ -15,6 +16,7 @@ export default function Router() {
       <Route path="/bikes/:id" element={<BikeDetails />} />
       <Route path="/reviews" element={<ReviewsPage />} />
       <Route path="/contact" element={<ContactPage />} />
+      <Route path="/siksha" element={<SikshaHome />} />
     </Routes>
   )
 }
