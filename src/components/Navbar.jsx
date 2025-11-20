@@ -32,6 +32,7 @@ export default function Navbar() {
             {navItem({ to: '/categories', label: 'Categories' })}
             {navItem({ to: '/reviews', label: 'Reviews' })}
             {navItem({ to: '/contact', label: 'Contact' })}
+            {navItem({ to: '/siksha', label: 'Siksha' })}
           </nav>
 
           <button className="md:hidden p-2 text-slate-200" onClick={() => setOpen(!open)}>
@@ -47,6 +48,7 @@ export default function Navbar() {
             {navItem({ to: '/categories', label: 'Categories' })}
             {navItem({ to: '/reviews', label: 'Reviews' })}
             {navItem({ to: '/contact', label: 'Contact' })}
+            {navItem({ to: '/siksha', label: 'Siksha' })}
           </div>
         </div>
       )}
